@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println(Dog);
         System.out.println(Cat);
-        System.out.println(Papr);
+        System.out.println(Paper);
 
 
     }
