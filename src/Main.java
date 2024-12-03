@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
       var Boxer1 = 78.2;
-      var Boxer2 = 82.7;
+      var Boxer2 = 82.;
 
       System.out.println(Boxer1 + Boxer2);
 
