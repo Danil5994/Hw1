@@ -5,7 +5,7 @@ public class Main {
 
         var Dog = 8.0;
         var Cat = 3.6;
-        var Paper = 76378;
+        var Paper = 763789;
 
         System.out.println(Dog);
         System.out.println(Cat);
