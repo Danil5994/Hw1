@@ -3,11 +3,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        var Friend = 19;
+        var Frog = 3.5;
 
-        System.out.println(Friend);
-        System.out.println(Friend + 2);
-        System.out.println(Friend / 7 + 2);
+        System.out.println(Frog);
+        System.out.println(Frog * 10);
+        System.out.println(Frog * 10 / 3.5);
+        System.out.println(Frog * 10 / 3.5 + 4);
+
 
     }
 }
