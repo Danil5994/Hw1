@@ -3,14 +3,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        var Dog = 8.0;
-        var Cat = 3.6;
-        var Paper = 763789;
+      var Boxer1 = 78.2;
+      var Boxer2 = 82.7;
 
-        System.out.println(Dog);
-        System.out.println(Cat);
-        System.out.println(Paper);
-
+      System.out.println(Boxer1 + Boxer2);
 
     }
 }
