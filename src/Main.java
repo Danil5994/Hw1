@@ -3,9 +3,17 @@
 public class Main {
     public static void main(String[] args) {
 
-            double Boxer1 = 78.2;
-            double Boxer2 = 82.7;
-            System.out.println(Boxer2 % Boxer1);
+        var openingHours=640;
+        var worker = openingHours / 8;
+        var moreWorkers = worker + 94  ;
+        var divideTime = openingHours / moreWorkers ;
+
+
+
+
+        System.out.println("Всего работников в компании - " + worker + " человек");
+        System.out.println("Если в компании работает " + moreWorkers + " человек, то всего по " + divideTime + " часа работы может быть поделено между сотрудниками");
+
 
 
     }
