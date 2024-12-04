@@ -3,13 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        var Dog = 8.0;
-        var Cat = 3.6;
-        var Paper = 763789;
-
-        System.out.println(Dog);
-        System.out.println(Cat);
-        System.out.println(Paper);
+            double Boxer1 = 78.2;
+            double Boxer2 = 82.7;
+            System.out.println(Boxer2 % Boxer1);
 
 
     }
