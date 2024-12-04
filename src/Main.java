@@ -3,12 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        var Frog = 3.5;
-
-        System.out.println(Frog);
-        System.out.println(Frog * 10);
-        System.out.println(Frog * 10 / 3.5);
-        System.out.println(Frog * 10 / 3.5 + 4);
+            double Boxer1 = 78.2;
+            double Boxer2 = 82.7;
+            System.out.println(Boxer2 % Boxer1);
 
 
     }
