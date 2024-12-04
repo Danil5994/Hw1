@@ -3,13 +3,17 @@
 public class Main {
     public static void main(String[] args) {
 
-        var Dog = 8.0;
-        var Cat = 3.6;
-        var Paper = 763789;
+        var openingHours=640;
+        var worker = openingHours / 8;
+        var moreWorkers = worker + 94  ;
+        var divideTime = openingHours / moreWorkers ;
 
-        System.out.println(Dog);
-        System.out.println(Cat);
-        System.out.println(Paper);
+
+
+
+        System.out.println("Всего работников в компании - " + worker + " человек");
+        System.out.println("Если в компании работает " + moreWorkers + " человек, то всего по " + divideTime + " часа работы может быть поделено между сотрудниками");
+
 
 
     }
